@@ -41,28 +41,28 @@ export function MovieDetails() {
       />
       <div className={`${styles.col} ${styles.movieDetails} `}>
         <p className={styles.firstItem}>
-          <strong style={{color: 'rgb(181, 243, 243)'}}> Title: </strong>
+          <strong style={{color: '#edf030'}}> Title: </strong>
           {movie.title}
         </p>
         <p>
-          <strong style={{color: 'rgb(181, 243, 243)'}} >Genders: </strong>
+          <strong style={{color: '#edf030'}} >Genders: </strong>
           {movie.genres.map((genre) => genre.name).join(", ")}{" "}
           {/*Esto es para hacer un map a genere y devolver un string */}
         </p>
         <p>
-          <strong style={{color: 'rgb(181, 243, 243)'}}>Description: </strong>
+          <strong style={{color: '#edf030'}}>Description: </strong>
           {movie.overview}
         </p>
         <p>
-          <strong style={{color: 'rgb(181, 243, 243)'}}>Release Date: </strong>
+          <strong style={{color: '#edf030'}}>Release Date: </strong>
           {movie.release_date}
         </p>
         <p>
-          <strong style={{color: 'rgb(181, 243, 243)'}}>Production: </strong>
+          <strong style={{color: '#edf030'}}>Production: </strong>
           {movie.production_companies.map((pr) => pr.name)}
         </p>
         <p>
-          <strong style={{color: 'rgb(181, 243, 243)'}}>Watch the movie: </strong>
+          <strong style={{color: '#edf030'}}>Watch the movie: </strong>
           <a
             style={{color: 'red'}}
             href={`https://cuevana3.io/${arrayPelicula}`}

@@ -3,15 +3,15 @@
   font-size: 1.5rem;
 }
 
-.movieCard:hover{
+.movieCard:hover {
   opacity: 0.8;
 }
 
 .movieImage {
   border-radius: 10px;
-  background-color: azure;
+  background-color: #edf030;
 }
 
-.title{
+.title {
   text-align: center;
 }

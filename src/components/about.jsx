@@ -19,6 +19,8 @@ const About = () => {
     ? <p>
       Hello my name is Camilo Vergara, I'm Full Stack Web Developer, in this oportunity I was working with React, Router, and 
       movie API consumption, I hope that you like the project, all made thinking responsive.
+    <br/>
+    <br/>  
       TIP: If you want to see the movie that you select go to the bottom side and you will see the link to Cuevana, Enjoy!!
     </p>
     : ""
